@@ -11,4 +11,9 @@
     - name: service of postfix
       service:
        name: postfix
-       state: restarted  
+       state: restarted 
+
+    - name: Service of httpd
+      service:
+       name: httpd
+       state: restarted 
